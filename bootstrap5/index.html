@@ -8,17 +8,40 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- CDNのコードを挿入しないと、アイコンのコードを書いてもブラウザ上では何も表示されない。 -->
   </head>
   <body>
-    <div class="container-fluid"> <!-- レスポンシブで「横枠のスペースが必要ないよ」という場合にこれを使う。 -->
-      <h1 class="text-bg-danger">Hello,world!</h1>
+    <!-- <div class="container-fluid"> --> <!-- レスポンシブで「横枠のスペースが必要ないよ」という場合にこれを使う。 -->
+    <!--  <h1 class="text-bg-danger">Hello,world!</h1> -->
+
+    <!--  <div class="row"> -->
+    <!--    <div class="col-md-6 bg-info"> -->
+    <!--      左コンテンツ<i class="bi bi-envelope"></i> --> <!-- CDNを使うと、このように簡単にアイコンを設置することができる。 -->
+    <!--    </div> -->
+    <!--    <div class="col-md-6 bg-danger"> -->
+    <!--      右コンテンツ -->
+    <!--      <img src="bootstrap-icons-1.13.1/alarm-fill.svg"> --> <!-- imgタグのイメージファイルを使った方法 -->
+    <!--    </div> -->
+    <!--  </div> -->
+    <!-- </div> -->
+    <div class="container">
 
       <div class="row">
-        <div class="col-md-6 bg-info">
-          左コンテンツ<i class="bi bi-envelope"></i> <!-- CDNを使うと、このように簡単にアイコンを設置することができる。 -->
-        </div>
-        <div class="col-md-6 bg-danger">
-          右コンテンツ
-          <img src="bootstrap-icons-1.13.1/alarm-fill.svg"> <!-- imgタグのイメージファイルを使った方法 -->
-        </div>
+        <div class="col"><div class="bg-danger">test</div></div>
+        <div class="col"><div class="bg-danger">test</div></div>
+        <div class="col"><div class="bg-danger">test</div></div>
+        <div class="col"><div class="bg-danger">test</div></div>
+        <div class="col"><div class="bg-danger">test</div></div>
+        <div class="col"><div class="bg-danger">test</div></div>
+
+        <div class="col"><div class="bg-danger">test</div></div>
+        <div class="col"><div class="bg-danger">test</div></div>
+        <div class="col"><div class="bg-danger">test</div></div>
+        <div class="col"><div class="bg-danger">test</div></div>
+        <div class="col"><div class="bg-danger">test</div></div>
+        <div class="col"><div class="bg-danger">test</div></div>
+      </div>
+
+      <div class="row">
+        <div class="col-2"><div class="bg-danger">test</div></div>
+        <div class="col-10"><div class="bg-success">test</div></div>
       </div>
     </div>
 
